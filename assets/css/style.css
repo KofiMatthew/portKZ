@@ -1,7 +1,98 @@
+body{
+    background-color: darkgray;
+}
 
+#row1{
+    margin-top: 15px;
+}
+
+#main{
+    height: 900px;
+    overflow-y: scroll;
+}
+
+h1{
+    font-size: 48px;
+    padding: 1%;
+}
 
 #sidebar{
-    height: 888px;
-    width: 200px;
-    border: .3em;
+    background-color: white;
+    margin-top: 6%;
+    margin-left: 2%;
+    height: 98%;
+    border: 1.0em;
+    z-index: 1;
+}
+
+#kzPic{
+    display: block;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#navPort{
+    display: block;
+    margin-top: 33%;
+    font-size: 130%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#footer{
+    display: block;
+    margin-top: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.mains{
+    margin-top: 1%;
+}
+
+#homeImg, #kofiZ, #bio{
+    display: block;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+}
+
+.projects{
+    display: block;
+    width: 80%;
+    height: 400px;
+    margin-top: 4%;
+    border: darkgray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ports{
+    background-color: darkgray;
+    margin: 2%;
+}
+
+.proj{
+    text-align: center;
+}
+
+.card-text{
+    font-size: 22px;
+    color: white;
+}
+
+#bio{
+    color: black;
+    font-size: 18px;
 }
